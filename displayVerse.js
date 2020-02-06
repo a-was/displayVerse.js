@@ -1,20 +1,4 @@
-var getJSON = function (url, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'json';
-    xhr.onload = function () {
-        var status = xhr.status;
-        if (status === 200) {
-            callback(null, xhr.response);
-        } else {
-            callback(status, xhr.response);
-        }
-    };
-    xhr.send();
-};
-
-
-function displayVerse(elementID, bible, book, chapter, verses=null, numbers=false) {
+function displayVerse(elementID, bible, book, chapter, verses = null, numbers = false) {
     var element = document.getElementById(elementID);
 
     let url = 'https://biblia.info.pl/api/biblia';
@@ -25,7 +9,7 @@ function displayVerse(elementID, bible, book, chapter, verses=null, numbers=fals
         url += '/' + verses;
     }
 
-    getJSON(url, function(err, response) {
+    getJSON(url, function (err, response) {
         if (err != null) {
             console.log(err);
         } else {
@@ -42,3 +26,19 @@ function displayVerse(elementID, bible, book, chapter, verses=null, numbers=fals
         }
     })
 }
+
+
+var getJSON = function (url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function () {
+        var status = xhr.status;
+        if (status === 200) {
+            callback(null, xhr.response);
+        } else {
+            callback(status, xhr.response);
+        }
+    };
+    xhr.send();
+};
