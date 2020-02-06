@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>README</title>
+    <script type="text/javascript" src='https://www.biblia.info.pl/api/displayVerse.min.js'></script>
+{#    <script type="text/javascript" src='http://localhost:5000/displayVerse.min.js'></script>#}
+    <!-- <script src="js/axios.min.js"></script> -->
+    <meta name='viewport' content='width=device-width, initial-scale=2'>
+
+
+    <style>
+        body {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        p {
+            width: 70%;
+        }
+
+        xmp {
+            font-family: monospace;
+            background-color: #eee;
+            border: 1px solid #999;
+            display: block;
+            padding: 20px;
+            width: 70%;
+            white-space: pre-wrap;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <h1>Dokumentacja</h1>
+
+    <h2>Funkcji można używać do wstawiania wersetów z Biblii na dowolną stronę HTML</h2>
+
+    <h3>
+        Instalacja:
+    </h3>
+    <h4>
+        W nagłówku strony (znacznik head) dołączyć bibliotekę
+    </h4>
+    <xmp>
+        <script src="biblia.info.pl/test/js/displayVerse.min.js"></script>
+    </xmp>
+
+    <h3>Użycie:</h3>
+    <h4>
+        Jeśli chcesz umieścić werset "samodzielny", to należy użyć znacznika "div"
+    </h4>
+    <xmp>
+        <div id="werset_nr1"></div>
+    </xmp>
+    <div id="werset_nr1" style="width: 70%;"></div>
+
+
+    <!-- <p>UWAGA! Nie należy tego stosować w znaczniku "p". W takim przypadku należy skorzystać ze sposobu II:</p> -->
+
+
+    <h4>
+        Jeśli chcesz wyświetlić werset w innym tekście (np. w znaczniku "p") należy użyć znacznika span
+    </h4>
+
+    <xmp>
+        <p>
+            Lorem ipsum dolor sit amet, <span id="werset_nr2"></span> consectetur adipiscing elit.
+        </p>
+    </xmp>
+
+    <p>
+        Lorem ipsum dolor sit amet, <span id="werset_nr2"></span> consectetur adipiscing elit.
+    </p>
+
+    <h4>Aby oddzielić tekst nową linią trzeba użyć znacznika "br"</h4>
+
+    <xmp>
+        <p>
+            Lorem ipsum dolor sit amet,
+            <br /><span id="werset_nr3"></span><br />
+            consectetur adipiscing elit.
+        </p>
+    </xmp>
+
+    <p>
+        <!-- TODO: -->
+        <!-- FIXME: -->
+        Lorem ipsum dolor sit amet,
+        <br /><span id="werset_nr3"></span><br />
+        consectetur adipiscing elit.
+    </p>
+
+
+
+    <h4>Na końcu znacznika body umieść wywołania funkcji:</h4>
+    <xmp>
+        <script>
+            displayVerse('werset_nr1', '2tm2.3***/tbw/o')
+            displayVerse('werset_nr2', 'Gen1.1-10')
+            displayVerse('werset_nr3', 'j5.24/tsz')
+        </script>
+    </xmp>
+    <script>
+        displayVerse('werset_nr1', '2tm2.3***/tbw/o')
+        displayVerse('werset_nr2', 'Gen1.1-4')
+        displayVerse('werset_nr3', 'j5.24')
+        // displayVerse('werset_nr4', '2tm2.3***/tbw/o/lb')
+    </script>
+</body>
+
+</html>
