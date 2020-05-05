@@ -16,12 +16,12 @@ function displayVerse(elementID, bible, book, chapter, verses = null, numbers = 
             response.wersety.forEach(verse => {
                 if (numbers) {
                     let numberTag = document.createElement('number');
-                    numberTag.classList.add('verse-number')
+                    numberTag.classList.add('verse', 'verse-number')
                     numberTag.innerHTML = '(' + verse.werset + ')';
                     element.append(numberTag);
                 }
                 let verseTag = document.createElement('verse');
-                verseTag.classList.add('verse-text')
+                verseTag.classList.add('verse', 'verse-text')
                 verseTag.innerHTML = ' ' + verse.text + ' ';
                 element.append(verseTag);
             })
@@ -30,7 +30,7 @@ function displayVerse(elementID, bible, book, chapter, verses = null, numbers = 
 }
 
 
-var getJSON = function (url, callback) {
+function getJSON(url, callback) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.responseType = 'json';
