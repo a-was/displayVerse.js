@@ -1,5 +1,5 @@
 function displayVerse(elementID, bible, book, chapter, verses = null, numbers = false) {
-    var element = document.getElementById(elementID);
+    let element = document.getElementById(elementID);
 
     let url = 'https://biblia.info.pl/api/biblia';
     url += '/' + bible;
@@ -13,7 +13,10 @@ function displayVerse(elementID, bible, book, chapter, verses = null, numbers = 
         if (err != null) {
             console.log(err);
         } else {
-            response.wersety.forEach(verse => {
+            let arrLen = response.wersety.length
+            for (let i = 0; i < arrLen; i++) {
+                const verse = response.wersety[i];
+
                 if (numbers) {
                     let numberTag = document.createElement('span');
                     numberTag.classList.add('verse', 'verse-number')
@@ -22,20 +25,20 @@ function displayVerse(elementID, bible, book, chapter, verses = null, numbers = 
                 }
                 let verseTag = document.createElement('span');
                 verseTag.classList.add('verse', 'verse-text')
-                verseTag.innerHTML = ' ' + verse.text + ' ';
+                verseTag.innerHTML = (i === 0 && numbers === false ? '' : ' ') + verse.text + (i === arrLen - 1 ? '' : ' ');
                 element.append(verseTag);
-            })
+            }
         }
     })
 }
 
 
 function getJSON(url, callback) {
-    var xhr = new XMLHttpRequest();
+    let xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.responseType = 'json';
     xhr.onload = function () {
-        var status = xhr.status;
+        let status = xhr.status;
         if (status === 200) {
             callback(null, xhr.response);
         } else {
