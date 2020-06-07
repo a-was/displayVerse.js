@@ -15,12 +15,12 @@ function displayVerse(elementID, bible, book, chapter, verses = null, numbers = 
         } else {
             response.wersety.forEach(verse => {
                 if (numbers) {
-                    let numberTag = document.createElement('number');
+                    let numberTag = document.createElement('span');
                     numberTag.classList.add('verse', 'verse-number')
                     numberTag.innerHTML = '(' + verse.werset + ')';
                     element.append(numberTag);
                 }
-                let verseTag = document.createElement('verse');
+                let verseTag = document.createElement('span');
                 verseTag.classList.add('verse', 'verse-text')
                 verseTag.innerHTML = ' ' + verse.text + ' ';
                 element.append(verseTag);
