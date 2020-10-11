@@ -1,0 +1,104 @@
+# Akceptowane skróty
+## Tłumaczenia Biblii
+- Polskie
+    - bt - Biblia Tysiąclecia
+    - bw - Biblia Warszawska
+    - br - Biblia Warszawsko-Praska
+    - esp - Edycja Świętego Pawła
+    - bg - Biblia Gdańska
+    - ng - Nowa Biblia Gdańska
+    - ug - Uwspółcześniona Biblia Gdańska
+    - bb - Biblia Brzeska
+    - bp - Biblia Poznańska
+    - jw - Biblia Jakuba Wujka
+    - bm - Biblia Mesjańska
+    - ns - Biblia Nowego Świata
+    - bl - Biblia Lubelska
+    - sz - Słowo Życia
+    - eib - Przekład Dosłowny
+    - tnp - Biblia Toruńska 
+- Angielskie
+    - kjv - King James Version
+    - web - Webster Bible
+    - ylt - Young's Literal Translation
+- Inne
+    - vul - Łacińska Vulgata
+    - gr - Grecka Septuaginta
+
+## Księgi
+- Stary Testament
+    - Ks. Rodzaju - Rdz Rodz Gen IMoj 1Moj 1M
+    - Ks. Wyjścia - Wj Wyj Ex IIMoj 2Moj 2M
+    - Ks. Kapłańska - Kpł Kpl Kapł Kapl Lev IIIMoj 3Moj 3M
+    - Ks. Liczb - Lb Liczb Num Nu IVMoj 4Moj 4M
+    - Ks. Powtórzonego Prawa - Pwt Deu Dt VMoj 5Moj 5M
+    - Ks. Jozuego - Joz Jos
+    - Ks. Sędziów - Sdz Sędz Sedz Jdg
+    - Ks. Rut - Rt Rut Ru
+    - 1 Ks. Samuela - 1Sm 1Sam 1Sa
+    - 2 Ks. Samuela - 2Sm 2Sam 2Sa
+    - 1 Ks. Królewska - 1Krl 1Król 1Krol 1Ki
+    - 2 Ks. Królewska - 2Krl 2Król 2Krol 2Ki
+    - 1 Ks. Kronik - 1Krn 1Kron 1Ch
+    - 2 Ks. Kronik - 2Krn 2Kron 2Ch
+    - Ks. Ezdrasza - Ezd Ezdr Ezr
+    - Ks. Nehemiasza - Ne Neh
+    - Ks. Estery - Est Estery
+    - Ks. Hioba - Job Hioba Hiob Hi
+    - Ks. Psalmów - Ps Psalmy Psalm
+    - Ks. Przysłów - Prz Przy Pr
+    - Ks. Koheleta - Koh Kohelet Ekl Ecc
+    - Pieśń nad pieśniami - PNP SS
+    - Ks. Izajasza - Iz Isa
+    - Ks. Jeremiasza - Jr Jer
+    - Lamentacje Jeremiasza - Lm Lam Tr Treny La
+    - Ks. Ezechiela - Ez Eze
+    - Ks. Daniela - Dn Dan Da
+    - Ks. Ozeasza - Oz Hos
+    - Ks. Joela - Jl Joel
+    - Ks. Amosa - Am Amos
+    - Ks. Abdiasza - Ab Ob
+    - Ks. Jonasza - Jon Jnh
+    - Ks. Micheasza - Mi Mich Mic
+    - Ks. Nahuma - Na Nach
+    - Ks. Habakuka - Ha Hab
+    - Ks. Sofoniasza - So Sof Zep
+    - Ks. Aggeusza - Ag Hag
+    - Ks. Zachariasza - Za Zach Zec
+    - Ks. Malachiasza - Ml Mal
+- Apokryfy
+    - Ks. Tobiasza - Tb Tob
+    - Ks. Judyty - Jdt Judyty
+    - 1 Ks. Machabejska - 1Mch 1Mach
+    - 2 Ks. Machabejska - 2Mch 2Mach
+    - Ks. Mądrości - Mdr Mądr Madr
+    - Mądrość Syracha - Syr Syracha Syrach
+    - Ks. Barucha - Ba Barucha Bar
+- Nowy Testament
+    - Ew. Mateusza - Mt Mat
+    - Ew. Marka - Mk Mar
+    - Ew. Łukasza - Łk Łuk Lk Luk
+    - Ew. Jana - Jan J Jn
+    - Dzieje Apost. - Dz Act Ac
+    - List do Rzymian - Rz Rzym Ro
+    - 1 list do Koryntian - 1Kor 1Co
+    - 2 list do Koryntian - 2Kor 2Co
+    - List do Galatów - Ga Gal
+    - List do Efezjan - Ef Efez Eph
+    - List do Filipian - Flp Fil Fl Php
+    - List do Kolosan - Kol Col
+    - 1 List do Tesaloniczan - 1Tes 1Th
+    - 2 List do Tesaloniczan - 2Tes 2Th
+    - 1 List do Tymoteusza - 1Tm 1Tym 1Ti
+    - 2 List do Tymoteusza - 2Tm 2Tym 2Ti
+    - List do Tytusa - Tt Tyt Tit
+    - List do Filemona - Flm Filem Phm
+    - List do Hebrajczyków - Hbr Heb Hebr
+    - List Jakuba - Jk Jak Jas
+    - 1 List Piotra - 1P 1Pe
+    - 2 List Piotra - 2P 2Pe
+    - 1 List Jana - 1J 1Jn
+    - 2 List Jana - 2J 2Jn
+    - 3 List Jana - 3J 3Jn
+    - List Judy - Jud Judy Jude
+    - Apokalipsa (Objawienie) - Ap Obj Rev
