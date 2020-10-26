@@ -46,4 +46,4 @@ function getJSON(url, callback) {
         }
     };
     xhr.send();
-};
+}
