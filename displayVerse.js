@@ -10,11 +10,11 @@ function displayVerse(elementID, bible, book, chapter, verses = null, numbers = 
     }
 
     getJSON(url, function (err, response) {
-        if (err != null) {
+        if (err !== null) {
             console.log(err);
         } else {
-            let arrLen = response.wersety.length
-            for (let i = 0; i < arrLen; i++) {
+            let versesLength = response.verses.length
+            for (let i = 0; i < versesLength; i++) {
                 const verse = response.verses[i];
 
                 if (numbers) {
@@ -25,7 +25,7 @@ function displayVerse(elementID, bible, book, chapter, verses = null, numbers = 
                 }
                 let verseTag = document.createElement('span');
                 verseTag.classList.add('verse', 'verse-text')
-                verseTag.innerHTML = (i === 0 && numbers === false ? '' : ' ') + verse.text + (i === arrLen - 1 ? '' : ' ');
+                verseTag.innerHTML = (i === 0 && numbers === false ? '' : ' ') + verse.text + (i === versesLength - 1 ? '' : ' ');
                 element.append(verseTag);
             }
         }
