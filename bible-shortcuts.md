@@ -1,5 +1,7 @@
 # Akceptowane skróty
+
 ## Tłumaczenia Biblii
+
 - Polskie
     - bt - Biblia Tysiąclecia
     - bw - Biblia Warszawska
@@ -16,7 +18,7 @@
     - bl - Biblia Lubelska
     - sz - Słowo Życia
     - eib - Przekład Dosłowny
-    - tnp - Biblia Toruńska 
+    - tnp - Biblia Toruńska
 - Angielskie
     - kjv - King James Version
     - web - Webster Bible
@@ -26,6 +28,7 @@
     - gr - Grecka Septuaginta
 
 ## Księgi
+
 - Stary Testament
     - Ks. Rodzaju - Rdz Rodz Gen IMoj 1Moj 1M
     - Ks. Wyjścia - Wj Wyj Ex IIMoj 2Moj 2M

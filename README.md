@@ -1,15 +1,15 @@
 # displayVerse.js
 Funkcji displayVerse można używać do wstawiania wersetów z [Biblii 2000](https://biblia.info.pl/biblia.html) na dowolną stronę HTML
 
-## Argumenty funkcji: 
+## Argumenty funkcji:
 
-| Nazwa     | Typ        | Wymagany | Domyślnie | Opis | 
+| Nazwa     | Typ        | Wymagany | Domyślnie | Opis |
 | -----     | ---        | -------- | ---       | ---  |
 | elementID | string     | Tak      |           | id elementu do którego chcemy wstawić fragment Biblii |
 | bible     | string     | Tak      |           | skrót tłumaczenia Biblii, [lista akceptowanych skrótów](https://biblia.info.pl/api/skroty.html) |
 | book      | string     | Tak      |           | skrót księgi, [lista akceptowanych skrótów](https://biblia.info.pl/api/skroty.html) |
 | chapter   | int/string | Tak      |           | numer rozdziału |
-| verses    | string     | Nie      | `null`    | zakres wersetów postaci x-y <br/> jeśli null - wyświetlenie całego rozdziału |
+| verses    | string     | Nie      | `null`    | zakres wersetów postaci x-y <br/> jeśli `null` - wyświetlenie całego rozdziału |
 | numbers   | bool       | Nie      | `false`   | czy chcemy aby wersety były numerowane |
 
 ## Instalacja
@@ -46,13 +46,13 @@ Jeśli chcesz wyświetlić werset razem z innym tekstem (na przykład w znacznik
 Aby oddzielić tekst nową linią należy użyć znacznika `<br>`
 
 ### Style
-Teksty Biblii "opakowywane" są w znaczniki `<span>` \
+Teksty Biblii umieszczane są w znacznikach `<span>` \
 Znaczniki te posiadają klasy CSS `verse`, `verse-number` oraz `verse-text`, aby można było im nadać odpowiednie style \
 Aby nadać styl należy w CSSie strony dodać klasy oraz nadać im jakieś właściwości
 
 ```html
 <style>
-    /* Numer wersetu oraz tekst */
+    /* Numer oraz tekst wersetu */
     .verse {
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -70,12 +70,13 @@ Aby nadać styl należy w CSSie strony dodać klasy oraz nadać im jakieś wła�
 ```
 
 Wywołania funkcji `displayVerse` najlepiej dodać na końcu znacznika `<body>`, nawet w przypadku użycia tylko jednego wywołania
+
 ```html
     ...
     <script>
         displayVerse('werset_nr1', 'bt', 'mat', '1', '1-5', true);
-        displayVerse('werset_nr2', 'bw', '2tym', 1, '4-6', false)
-        displayVerse('werset_nr3', 'sz', 'j', 5, 24)
+        displayVerse('werset_nr2', 'bw', '2tym', '1', '4-6', false)
+        displayVerse('werset_nr3', 'sz', 'jan', '5')
     </script>
 </body>
 ```
