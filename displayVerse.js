@@ -9,9 +9,9 @@ function displayVerse(elementID, bible, book, chapter, verses = null, numbers = 
         url += '/' + verses;
     }
 
-    getJSON(url, function (err, response) {
-        if (err !== null) {
-            console.log(err);
+    getJSON(url, function (error, response) {
+        if (error !== null) {
+            console.log(error);
         } else {
             let versesLength = response.verses.length
             for (let i = 0; i < versesLength; i++) {
