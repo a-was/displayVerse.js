@@ -30,58 +30,58 @@
 ## Księgi
 
 - Stary Testament
-    - Ks. Rodzaju - Rdz Rodz Gen IMoj 1Moj 1M
-    - Ks. Wyjścia - Wj Wyj Ex IIMoj 2Moj 2M
-    - Ks. Kapłańska - Kpł Kpl Kapł Kapl Lev IIIMoj 3Moj 3M
-    - Ks. Liczb - Lb Liczb Num Nu IVMoj 4Moj 4M
-    - Ks. Powtórzonego Prawa - Pwt Deu Dt VMoj 5Moj 5M
-    - Ks. Jozuego - Joz Jos
-    - Ks. Sędziów - Sdz Sędz Sedz Jdg
-    - Ks. Rut - Rt Rut Ru
-    - 1 Ks. Samuela - 1Sm 1Sam 1Sa
-    - 2 Ks. Samuela - 2Sm 2Sam 2Sa
-    - 1 Ks. Królewska - 1Krl 1Król 1Krol 1Ki
-    - 2 Ks. Królewska - 2Krl 2Król 2Krol 2Ki
-    - 1 Ks. Kronik - 1Krn 1Kron 1Ch
-    - 2 Ks. Kronik - 2Krn 2Kron 2Ch
-    - Ks. Ezdrasza - Ezd Ezdr Ezr
-    - Ks. Nehemiasza - Ne Neh
-    - Ks. Estery - Est Estery
-    - Ks. Hioba - Job Hioba Hiob Hi
-    - Ks. Psalmów - Ps Psalmy Psalm
-    - Ks. Przysłów - Prz Przy Pr
-    - Ks. Koheleta - Koh Kohelet Ekl Ecc
+    - Księga Rodzaju - Rdz Rodz Gen IMoj 1Moj 1M
+    - Księga Wyjścia - Wj Wyj Ex IIMoj 2Moj 2M
+    - Księga Kapłańska - Kpł Kpl Kapł Kapl Lev IIIMoj 3Moj 3M
+    - Księga Liczb - Lb Liczb Num Nu IVMoj 4Moj 4M
+    - Księga Powtórzonego Prawa - Pwt Deu Dt VMoj 5Moj 5M
+    - Księga Jozuego - Joz Jos
+    - Księga Sędziów - Sdz Sędz Sedz Jdg
+    - Księga Rut - Rt Rut Ru
+    - 1 Księga Samuela - 1Sm 1Sam 1Sa
+    - 2 Księga Samuela - 2Sm 2Sam 2Sa
+    - 1 Księga Królewska - 1Krl 1Król 1Krol 1Ki
+    - 2 Księga Królewska - 2Krl 2Król 2Krol 2Ki
+    - 1 Księga Kronik - 1Krn 1Kron 1Ch
+    - 2 Księga Kronik - 2Krn 2Kron 2Ch
+    - Księga Ezdrasza - Ezd Ezdr Ezr
+    - Księga Nehemiasza - Ne Neh
+    - Księga Estery - Est Estery
+    - Księga Hioba - Job Hioba Hiob Hi
+    - Księga Psalmów - Ps Psalmy Psalm
+    - Księga Przysłów - Prz Przy Pr
+    - Księga Koheleta - Koh Kohelet Ekl Ecc
     - Pieśń nad pieśniami - PNP SS
-    - Ks. Izajasza - Iz Isa
-    - Ks. Jeremiasza - Jr Jer
+    - Księga Izajasza - Iz Isa
+    - Księga Jeremiasza - Jr Jer
     - Lamentacje Jeremiasza - Lm Lam Tr Treny La
-    - Ks. Ezechiela - Ez Eze
-    - Ks. Daniela - Dn Dan Da
-    - Ks. Ozeasza - Oz Hos
-    - Ks. Joela - Jl Joel
-    - Ks. Amosa - Am Amos
-    - Ks. Abdiasza - Ab Ob
-    - Ks. Jonasza - Jon Jnh
-    - Ks. Micheasza - Mi Mich Mic
-    - Ks. Nahuma - Na Nach
-    - Ks. Habakuka - Ha Hab
-    - Ks. Sofoniasza - So Sof Zep
-    - Ks. Aggeusza - Ag Hag
-    - Ks. Zachariasza - Za Zach Zec
-    - Ks. Malachiasza - Ml Mal
+    - Księga Ezechiela - Ez Eze
+    - Księga Daniela - Dn Dan Da
+    - Księga Ozeasza - Oz Hos
+    - Księga Joela - Jl Joel
+    - Księga Amosa - Am Amos
+    - Księga Abdiasza - Ab Ob
+    - Księga Jonasza - Jon Jnh
+    - Księga Micheasza - Mi Mich Mic
+    - Księga Nahuma - Na Nach
+    - Księga Habakuka - Ha Hab
+    - Księga Sofoniasza - So Sof Zep
+    - Księga Aggeusza - Ag Hag
+    - Księga Zachariasza - Za Zach Zec
+    - Księga Malachiasza - Ml Mal
 - Apokryfy
-    - Ks. Tobiasza - Tb Tob
-    - Ks. Judyty - Jdt Judyty
-    - 1 Ks. Machabejska - 1Mch 1Mach
-    - 2 Ks. Machabejska - 2Mch 2Mach
-    - Ks. Mądrości - Mdr Mądr Madr
+    - Księga Tobiasza - Tb Tob
+    - Księga Judyty - Jdt Judyty
+    - 1 Księga Machabejska - 1Mch 1Mach
+    - 2 Księga Machabejska - 2Mch 2Mach
+    - Księga Mądrości - Mdr Mądr Madr
     - Mądrość Syracha - Syr Syracha Syrach
-    - Ks. Barucha - Ba Barucha Bar
+    - Księga Barucha - Ba Barucha Bar
 - Nowy Testament
-    - Ew. Mateusza - Mt Mat
-    - Ew. Marka - Mk Mar
-    - Ew. Łukasza - Łk Łuk Lk Luk
-    - Ew. Jana - Jan J Jn
+    - Ewangelia Mateusza - Mt Mat
+    - Ewangelia Marka - Mk Mar
+    - Ewangelia Łukasza - Łk Łuk Lk Luk
+    - Ewangelia Jana - Jan J Jn
     - Dzieje Apost. - Dz Act Ac
     - List do Rzymian - Rz Rzym Ro
     - 1 list do Koryntian - 1Kor 1Co
