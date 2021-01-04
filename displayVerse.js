@@ -20,12 +20,12 @@ function displayVerse(elementId, bible, book, chapter, verses = null, numbers = 
 
                 if (numbers) {
                     let numberTag = document.createElement('span');
-                    numberTag.classList.add('verse', 'verse-number')
+                    numberTag.classList.add('verse', 'verse-number');
                     numberTag.innerHTML = '(' + verse.verse + ')';
                     element.append(numberTag);
                 }
                 let verseTag = document.createElement('span');
-                verseTag.classList.add('verse', 'verse-text')
+                verseTag.classList.add('verse', 'verse-text');
                 verseTag.innerHTML = (i === 0 && numbers === false ? '' : ' ') + verse.text + (i === versesLength - 1 ? '' : ' ');
                 element.append(verseTag);
             }
