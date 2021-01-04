@@ -5,7 +5,7 @@ Funkcji displayVerse można używać do wstawiania wersetów z [Biblii 2000](htt
 
 | Nazwa     | Typ        | Wymagany | Domyślnie | Opis |
 | -----     | ---        | -------- | ---       | ---  |
-| elementID | string     | Tak      |           | id elementu do którego chcemy wstawić fragment Biblii |
+| elementId | string     | Tak      |           | id elementu do którego chcemy wstawić fragment Biblii |
 | bible     | string     | Tak      |           | skrót tłumaczenia Biblii, [lista akceptowanych skrótów](https://biblia.info.pl/api/skroty.html) |
 | book      | string     | Tak      |           | skrót księgi, [lista akceptowanych skrótów](https://biblia.info.pl/api/skroty.html) |
 | chapter   | int/string | Tak      |           | numer rozdziału |

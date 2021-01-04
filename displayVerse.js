@@ -1,5 +1,5 @@
-function displayVerse(elementID, bible, book, chapter, verses = null, numbers = false) {
-    let element = document.getElementById(elementID);
+function displayVerse(elementId, bible, book, chapter, verses = null, numbers = false) {
+    const element = document.getElementById(elementId);
 
     let url = 'https://biblia.info.pl/api/biblia';
     url += '/' + bible;
