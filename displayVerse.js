@@ -11,7 +11,8 @@ function displayVerse(elementId, bible, book, chapter, verses = null, numbers = 
 
     getJSON(url, function (error, response) {
         if (error !== null) {
-            console.log(error);
+            console.error(error);
+            console.error(response);
         } else {
             let versesLength = response.verses.length
             for (let i = 0; i < versesLength; i++) {
