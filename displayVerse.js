@@ -14,17 +14,17 @@ function displayVerse(elementId, bible, book, chapter, verses = null, numbers = 
             console.error(error);
             console.error(response);
         } else {
-            let versesLength = response.verses.length
+            const versesLength = response.verses.length
             for (let i = 0; i < versesLength; i++) {
                 const verse = response.verses[i];
 
                 if (numbers) {
-                    let numberTag = document.createElement('span');
+                    const numberTag = document.createElement('span');
                     numberTag.classList.add('verse', 'verse-number');
                     numberTag.innerHTML = '(' + verse.verse + ')';
                     element.append(numberTag);
                 }
-                let verseTag = document.createElement('span');
+                const verseTag = document.createElement('span');
                 verseTag.classList.add('verse', 'verse-text');
                 verseTag.innerHTML = (i === 0 && numbers === false ? '' : ' ') + verse.text + (i === versesLength - 1 ? '' : ' ');
                 element.append(verseTag);
@@ -35,11 +35,11 @@ function displayVerse(elementId, bible, book, chapter, verses = null, numbers = 
 
 
 function getJSON(url, callback) {
-    let xhr = new XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.responseType = 'json';
     xhr.onload = function () {
-        let status = xhr.status;
+        const status = xhr.status;
         if (status === 200) {
             callback(null, xhr.response);
         } else {
