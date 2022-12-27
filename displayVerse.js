@@ -1,12 +1,12 @@
 function displayVerse(elementId, bible, book, chapter, verses = null, numbers = false) {
     const element = document.getElementById(elementId);
 
-    let url = 'https://biblia.info.pl/api/biblia';
-    url += '/' + bible;
-    url += '/' + book;
-    url += '/' + chapter;
+    let url = "https://biblia.info.pl/api/biblia";
+    url += "/" + bible;
+    url += "/" + book;
+    url += "/" + chapter;
     if (verses) {
-        url += '/' + verses;
+        url += "/" + verses;
     }
 
     getJSON(url, function (error, response) {
@@ -36,9 +36,9 @@ function displayVerse(elementId, bible, book, chapter, verses = null, numbers = 
 
 function getJSON(url, callback) {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'json';
-    xhr.onload = function () {
+    xhr.open("GET", url, true);
+    xhr.responseType = "json";
+    xhr.onload = function() {
         const status = xhr.status;
         if (status === 200) {
             callback(null, xhr.response);

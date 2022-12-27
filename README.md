@@ -30,7 +30,7 @@ Jeśli chcesz umieścić werset "samodzielny", to należy użyć znacznika "div"
 Następnie użyj wywołania funkcji displayVerse podając gdzie i jaki werset wstawić
 ```html
 <script>
-    displayVerse('werset_nr1', 'bt', 'mt', '1', '1-5', true);
+    displayVerse("werset_nr1", "bt", "mt", "1", "1-5", true);
 </script>
 ```
 Zaleca się wywoływanie funkcji na końcu strony (przykład niżej)
@@ -74,9 +74,9 @@ Wywołania funkcji `displayVerse` najlepiej dodać na końcu znacznika `<body>`,
 ```html
     ...
     <script>
-        displayVerse('werset_nr1', 'bt', 'mat', '1', '1-5', true);
-        displayVerse('werset_nr2', 'bw', '2tym', '1', '4-6', false)
-        displayVerse('werset_nr3', 'sz', 'jan', '5')
+        displayVerse("werset_nr1", "bt", "mat", "1", "1-5", true);
+        displayVerse("werset_nr2", "bw", "2tym", "1", "4-6", false)
+        displayVerse("werset_nr3", "sz", "jan", "5")
     </script>
 </body>
 ```
